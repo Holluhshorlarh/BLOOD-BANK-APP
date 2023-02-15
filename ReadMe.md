@@ -3,7 +3,7 @@ The Blood Bank API is a web-based platform that allows users to manage their blo
 
 ---
 
-#####Features
+### Features
 The Blood Bank API comes with the following features:
 
 - Donor registration and login
@@ -37,5 +37,5 @@ To install the Blood Bank API, follow the steps below:
 
 ---
 
-####Conclusion
+### Conclusion
 The Blood Bank API is an efficient and user-friendly platform that helps users manage their blood donations and facilitates the blood donation process. With its features and easy-to-use interface.
