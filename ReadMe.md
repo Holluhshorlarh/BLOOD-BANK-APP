@@ -1,4 +1,4 @@
-###Blood Bank API
+# Blood Bank API
 The Blood Bank API is a web-based platform that allows users to manage their blood donations by donating, updating, and deleting records, as well as viewing all their blood types (including Rhesus factor and Blood Group). The API is designed to help streamline the blood donation process and make it easier for users to manage their donations.
 
 ---
@@ -11,7 +11,7 @@ The Blood Bank API comes with the following features:
 
 ----
 
-#####Technology Stack
+### Technology Stack
 The Blood Bank API is built using the following technologies:
 
 - <b/>Node.js:</b> a JavaScript runtime that allows us to run server-side code
@@ -23,12 +23,12 @@ Postman: a tool used for testing and documenting APIs
 
 ---
 
-#####Usage
+### Usage
 To use the Blood Bank API kindly refer to the postman documentation link: https://documenter.getpostman.com/view/25826735/2s93CEwc8H
 
 ---
 
-####Installation 
+### Installation 
 
 To install the Blood Bank API, follow the steps below:
 
