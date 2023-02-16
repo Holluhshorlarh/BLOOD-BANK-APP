@@ -1,7 +1,7 @@
-// import mongoose model 
+//  imports the Mongoose library 
 const mongoose = require("mongoose");
 
-// create variable for the schema 
+//  creates a new schema object using Mongoose's Schema class. 
 
 const bloodBankSchema = new mongoose.Schema({
     donorName: String,
@@ -20,9 +20,9 @@ const bloodBankSchema = new mongoose.Schema({
 },
 {timestamps: true})
 
-// Attaching the schema to the model. Attach bloodBankSchema to BloodBank model
+//  creates a new Mongoose model for the schema, and attaches the schema to it.
 const BloodBank = mongoose.model("BloodBank", bloodBankSchema);
 
-//export schema to blood bank controller
+//exports the BloodBank model so it can be used in other files in the application
 module.exports =  BloodBank;
 

@@ -3,6 +3,7 @@ const BloodBank = require("../models/bloodBank.models");
 
 // logic to collect donor data
 
+// Creates a new blood donor record in the database
 const newDonor = async (req, res) => {
     try {
         const {donorName, donorGender, donorAge, donorBloodGroup, donorRhFactor, donorAddress, donatedBefore} = req.body;
@@ -28,6 +29,7 @@ const newDonor = async (req, res) => {
     }
 }
 
+//  retrieve a list of blood donors from the database
 const getDonor = async (req, res) => {
     try {
         const id = req.params.id
@@ -43,6 +45,7 @@ const getDonor = async (req, res) => {
     }
 }
 
+// Deletes a blood donor record from the database, 
 const deleteDonor = async (req, res) => {
     try {
         const id = req.params.id
@@ -63,6 +66,8 @@ const deleteDonor = async (req, res) => {
 
     
 }
+
+// Update an existing blood donor record in the database
 const updateDonor = async (req, res) => {
     try { 
         const id = req.params.id
