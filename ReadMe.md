@@ -24,7 +24,8 @@ Postman: a tool used for testing and documenting APIs
 ---
 
 ### Usage
-To use the Blood Bank API kindly refer to the postman documentation link: https://documenter.getpostman.com/view/25826735/2s93CEwc8H
+To use the Blood Bank API, kindly refer to the postman documentation here 👉 [BLOOD BANK API](https://documenter.getpostman.com/view/25826735/2s93CEwc8H
+)
 
 ---
 
